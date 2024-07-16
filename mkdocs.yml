@@ -31,7 +31,7 @@ markdown_extensions:
 - footnotes
 
 theme:
-  name: readthedocs
+  name: material
   highlightjs: true
 
 extra:

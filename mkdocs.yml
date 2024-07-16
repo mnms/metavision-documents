@@ -15,7 +15,7 @@ nav:
   - Data Lake: data_lake.md
   - Data Warehouse: data_warehouse.md
 
-- Management:
+- Data Agent:
   - Dashboard: dashboard.md
   - ML Workflow & Event: workflow_event.md
 

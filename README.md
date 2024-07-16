@@ -9,3 +9,8 @@ pip install -r requirements.txt
 ```
 mkdocs serve
 ```
+
+- 배포
+```
+./deploy.sh
+```

@@ -1,19 +1,20 @@
-# 1. MetaVision2 is ...
+# 1. MetaVision is ...
 
-MetaVision2는 대용량의 Vision Data를 효율적으로 관리하고 관련 응용 서비스를 쉽게 사용할 수 있는 환경을 제공하는 플랫폼입니다.
+MetaVision은 대용량의 Vision Data를 효율적으로 관리하고 관련 응용 서비스를 쉽게 사용할 수 있는 환경을 제공하는 플랫폼입니다.
 
 - 기존에 관리되지 않고 있는 데이터에 대한 관리 커버리지 및 재활용성을 제고
 - CVPaaS Cloud 서비스에서의 확장성 있고, 비용 효율적인 AI Ops 서비스의 기반을 제공
 - Golden Data Discovery & AI 모델 개선 Cycle 완성을 위한 환경 제공
+- Vision AI가 적용된 실 서비스의 데이터를 자동으로 수집하고 데이터셋 형태로 관리할 수 있는 기능 제공
 
 
 # 2. Architecture
 
-MetaVision2의 모든 서비스는 Kubernetes 환경에서 동작하고 있습니다.
+MetaVision의 모든 서비스는 Kubernetes 환경에서 동작하고 있습니다.
 
 AWS S3와 호환되는 Ceph를 사용하여 object storage를 구성하였고, Apache KAFKA, ElasticSearch 등을 사용하여 object storage에 업로드한 파일들에 대한 메타데이터를 관리하고 있습니다.
 
-Apache Airflow 및 자체 개발한 ML Workflow 서비스를 사용하여 보유한 데이터에 대해 데이터 가공 및 Machine Learning(ML) inference 작업을 수행할 수 있습니다.
+Apache KAFKA 및 자체 개발한 ML Workflow 서비스를 사용하여 보유한 데이터에 대해 데이터 가공 및 Machine Learning(ML) inference 작업을 수행할 수 있습니다.
 
 ML inference의 결과는 자체 개발한 LightningDB에 저장되어 메타데이터 기반으로 지연없는 데이터 검색 및 객체로부터 추출한 feature value 기반으로 유사 이미지 검색을 지원하고 있습니다.
 
@@ -29,3 +30,4 @@ ML inference의 결과는 자체 개발한 LightningDB에 저장되어 메타데
 - Object storage에 업로드한 파일에 대해 자동으로 ML Workflow를 수행할 수 있는 Event 등록 서비스 제공
 - ML Inference를 통해 추출한 메타데이터를 효율적으로 관리하기 위한 LightningDB 사용(데이터 조회 및 유사 이미지 검색 지원)
 - 프로젝트별 데이터 현황을 모니터링할 수 있는 대시보드 제공
+- 서비스 데이터를 실시간으로 수집하여 통계 및 메타데이터를 조회할 수 있는 대시보드를 제공하고, 규칙 기반 또는 사용자가 선택한 목록 기반으로 데이터를 다운받을 수 있는 기능 제공

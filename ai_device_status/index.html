@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Safety&Care AI 개발팀" /><link rel="canonical" href="https://github.com/mnms/metavision-documents/data_lake/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Safety&Care AI 개발팀" /><link rel="canonical" href="https://github.com/mnms/metavision-documents/ai_device_status/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>File explore - MetaVision Docs</title>
+    <title>AI Device Status - MetaVision Docs</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "File explore";
-        var mkdocs_page_input_path = "data_lake.md";
-        var mkdocs_page_url = "/mnms/metavision-documents/data_lake/";
+        var mkdocs_page_name = "AI Device Status";
+        var mkdocs_page_input_path = "ai_device_status.md";
+        var mkdocs_page_url = "/mnms/metavision-documents/ai_device_status/";
       </script>
     
     <!--[if lt IE 9]>
@@ -59,16 +59,18 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Data Agent</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="#">Developmental Disorder</a>
-    <ul>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Developmental Disorder</a>
+    <ul class="current">
                 <li class="toctree-l2"><a class="reference internal" href="../intro_developmental_disorder/">Introduction</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../group_monitoring/">Group Monitoring</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../golden_data_events/">Golden-Data Events</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../ai_device_status/">AI Device Status</a>
+                <li class="toctree-l2 current"><a class="reference internal current" href="./">AI Device Status</a>
+    <ul class="current">
+    </ul>
                 </li>
     </ul>
                   </li>
@@ -106,7 +108,9 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">File explore</li>
+          <li class="breadcrumb-item">Data Agent</li>
+          <li class="breadcrumb-item">Developmental Disorder</li>
+      <li class="breadcrumb-item active">AI Device Status</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -115,25 +119,24 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="file-explore">File explore<a class="headerlink" href="#file-explore" title="Permanent link">&para;</a></h1>
-<p><b>File explore</b>는 object storage에 저장된 파일들을 File browser 형태로 볼 수 있도록 환경을 제공합니다. </p>
-<p>Object storage는 구조화되지 않은 대량의 데이터를 처리하도록 설계된 data storage architecture입니다. </p>
-<p>Object storage의 파일들은 파일 자체와 메타 정보를 가지고 있는 객체(object) 형태로 관리되고 있으며, 수평 확장이 가능하여 확장성에 제한이 거의 없어 대용량의 데이터를 저장하고 메타 정보를 활용하여 쉽게 검색 및 활용할 수 있습니다.</p>
-<p>사진과 동영상 파일의 경우, 미리보기를 제공하고 있어 실시간으로 데이터를 확인할 수 있습니다.</p>
-<p>모든 데이터는 프로젝트별로 접근 권한 관리가 되고 있으며, 사용자는 권한이 있는 프로젝트에서만 데이터를 업로드 및 다운로드를 할 수 있습니다.</p>
-<p><img alt="MetaVision2 File Explore" src="../images/metavision2_file_explore_preview.png" />
-<center><b>&lt; File explore 조회 &gt;</b></center></p>
-<h1 id="file-search">File search<a class="headerlink" href="#file-search" title="Permanent link">&para;</a></h1>
-<p>File explore의 경우, 직접 object storage에 데이터를 순차적으로 조회하여 결과를 받는 방식을 사용하여 대용량의 데이터가 있는 경우 수행 시간이 지연될 수 있습니다.</p>
-<p><b>File search</b>는 object storage에 업로드된 모든 데이터에 대해 메타 정보를 별도로 저장하여 파일 경로, 파일 이름뿐만 아니라 문자 기반 파일의 경우 문서 내 키워드도 태그로 저장하여 <b>키워드 기반 검색</b>을 실시간으로 제공하고 있습니다.</p>
-<p><img alt="MetaVision2 File Search" src="../images/metavision2_file_search_preview.png" />
-<center><b>&lt; File search 조회 &gt;</b></center></p>
-<p>이를 기반으로 원하는 데이터를 태그 기반으로 쉽게 찾을 수 있으며, 찾은 데이터가 있는 위치로 이동하여 관련 데이터를 전체 확인할 수 있는 기능을 제공하고 있습니다.</p>
-<p><img alt="MetaVision2 File Search" src="../images/metavision2_datalake_godir_preview.png" />
-<center><b>&lt; 검색한 파일이 있는 Directory로 이동 &gt;</b></center></p>
+                <h1 id="1-ai-device-status">1. AI Device Status<a class="headerlink" href="#1-ai-device-status" title="Permanent link">&para;</a></h1>
+<p><b>AI Device Status</b>는 <b>Data Agent</b>에서 원격으로 모니터링하는 장비의 상태를 체크하고, 현황을 보여줍니다.</p>
+<p>상태 모니터링을 하고 있는 장비는 다음과 같습니다.</p>
+<ul>
+<li>돌봄센터 서버</li>
+<li>NVR(Network Video Recorder)</li>
+<li>AI Box(Device)</li>
+<li>Camera</li>
+</ul>
+<p><img alt="MetaVision2 Workflow" src="../images/metavision2_data_agent_ai_device.png" />
+<center><b>&lt; AI Device 상태 모니터링 &gt;</b></center></p>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../golden_data_events/" class="btn btn-neutral float-left" title="Golden-Data Events"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../semantic_search_archi/" class="btn btn-neutral float-right" title="System Architecture">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -156,6 +159,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="../golden_data_events/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../semantic_search_archi/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

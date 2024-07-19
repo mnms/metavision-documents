@@ -8,7 +8,7 @@ cp -rp ./site ../
 git checkout gh-pages 
 
 # 이전 파일 삭제
-git rm -rf .
+find . -mindepth 1 ! -name 'deploy.sh' -exec rm -rf {} +
 
 # 빌드된 파일 복사
 cp -rp ../site/* .

@@ -34,16 +34,12 @@
 
 검색 결과는 3 가지 형태로 제공됩니다.
 
-- 객체가 포함된 대표 요약 영상
+
+- 객체가 포함된 영상 프레임 이미지
 
 ![MetaVision2 Dashboard](./images/metavision2_advanced_object_search3.png)
 
 
-- 객체가 포함된 영상 프레임 이미지
-
-![MetaVision2 Dashboard](./images/metavision2_advanced_object_search4.png)
-
-
 - 객체가 포함된 원본 영상
 
-![MetaVision2 Dashboard](./images/metavision2_advanced_object_search5.png)
+![MetaVision2 Dashboard](./images/metavision2_advanced_object_search4.png)

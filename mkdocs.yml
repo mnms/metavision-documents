@@ -29,6 +29,7 @@ nav:
   - Advanced Search:
     - Event Search: event_search.md
     - Object Search: object_search.md
+    - Similar Search: similar_search.md
 
 
 plugins:

@@ -86,6 +86,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/mnms/metavision-documents/similar_search/</loc>
+         <lastmod>2024-07-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/mnms/metavision-documents/workflow_event/</loc>
          <lastmod>2024-07-19</lastmod>
          <changefreq>daily</changefreq>

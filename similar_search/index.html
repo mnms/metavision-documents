@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Safety&Care AI 개발팀" /><link rel="canonical" href="https://github.com/mnms/metavision-documents/login/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Safety&Care AI 개발팀" /><link rel="canonical" href="https://github.com/mnms/metavision-documents/similar_search/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Register &amp; Sign in - MetaVision Docs</title>
+    <title>Similar Search - MetaVision Docs</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Register \u0026amp; Sign in";
-        var mkdocs_page_input_path = "login.md";
-        var mkdocs_page_url = "/mnms/metavision-documents/login/";
+        var mkdocs_page_name = "Similar Search";
+        var mkdocs_page_input_path = "similar_search.md";
+        var mkdocs_page_url = "/mnms/metavision-documents/similar_search/";
       </script>
     
     <!--[if lt IE 9]>
@@ -74,7 +74,7 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Search</span></p>
-              <ul>
+              <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" >Semantic Search</a>
     <ul>
                 <li class="toctree-l2"><a class="reference internal" href="../semantic_search_archi/">System Architecture</a>
@@ -83,13 +83,15 @@
                 </li>
     </ul>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" >Advanced Search</a>
-    <ul>
+                  <li class="toctree-l1 current"><a class="reference internal current" >Advanced Search</a>
+    <ul class="current">
                 <li class="toctree-l2"><a class="reference internal" href="../event_search/">Event Search</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../object_search/">Object Search</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../similar_search/">Similar Search</a>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">Similar Search</a>
+    <ul class="current">
+    </ul>
                 </li>
     </ul>
                   </li>
@@ -108,7 +110,9 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Register &amp; Sign in</li>
+          <li class="breadcrumb-item">Search</li>
+          <li class="breadcrumb-item">Advanced Search</li>
+      <li class="breadcrumb-item active">Similar Search</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -117,17 +121,25 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="register-sign-in">Register &amp; Sign in<a class="headerlink" href="#register-sign-in" title="Permanent link">&para;</a></h1>
-<p>MetaVision2의 모든 데이터는 프로젝트별로 접근 권한이 관리되며, 해당 프로젝트에 사용자를 추가 및 삭제를 함으로써 데이터에 대한 접근을 제한합니다.</p>
-<p>최초 사용 시 <b>Sign in</b> 화면에서 'register'를 선택하여 사용자를 등록할 수 있습니다.</p>
-<p><img alt="MetaVision2 Register" src="./images/metavision2_register_preview.png" />
-<center><b>&lt; 사용자 등록 &gt;</b></center></p>
-<p>사용자 등록 후 로그인 하여 프로젝트 생성 및 공유받은 데이터를 확인할 수 있습니다.</p>
-<p><img alt="MetaVision2 Architecture" src="./images/metavision2_signin_preview.png" />
-<center><b>&lt; 로그인 &gt;</b></center></p>
+                <h1 id="1-similar-search">1. Similar Search<a class="headerlink" href="#1-similar-search" title="Permanent link">&para;</a></h1>
+<p><b>Event Search</b>와 <b>Object Search</b>에서 제공되는 <b>상세 보기</b>의 <b>Original</b>에서는 원본 영상을 확인할 수 있습니다.</p>
+<p>여기서 영상 재생 중 화면에 마우스를 드래그(Drag)하여 객체를 선택하면 이와 유사한 객체를 가진 이미지 또는 영상을 검색할 수 있습니다.</p>
+<p><img alt="MetaVision2 Similar Search" src="../images/metavision2_similar_search1.png" />
+<center><b>&lt; Similar Search 검색 화면 &gt;</b></center></p>
+<p><img alt="MetaVision2 Similar Search" src="../images/metavision2_similar_search2.png" />
+<center><b>&lt; Similar Search 검색 결과 &gt;</b></center></p>
+<p>검색 결과로 나온 객체 이미지의 우측 상단 아이콘을 선택하면 이와 유사한 객체를 추가로 검색할 수 있습니다.</p>
+<p><img alt="MetaVision2 Similar Search" src="../images/metavision2_similar_search3.png" />
+<center><b>&lt; 추가 유사 객체 검색 결과 &gt;</b></center></p>
+<p>객체 검색 결과 이미지를 선택하면 해당 객체가 있는 이미지와 원본 영상을 확인할 수 있습니다.</p>
+<p><img alt="MetaVision2 Similar Search" src="../images/metavision2_similar_search4.png" />
+<center><b>&lt; 검색한 객체의 상세 보기 &gt;</b></center></p>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../object_search/" class="btn btn-neutral float-left" title="Object Search"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
 
   <hr/>
 
@@ -149,6 +161,8 @@
   <div class="rst-versions" role="note" aria-label="Versions">
   <span class="rst-current-version" data-toggle="rst-current-version">
     
+    
+      <span><a href="../object_search/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
   </span>

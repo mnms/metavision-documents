@@ -19,7 +19,10 @@
 
 <b>Data Agent</b>의 메타데이터로부터 사전에 정의한 규칙에 의해 영상을 자동 다운로드할 수 있습니다.
 
-아울러 로그를 확인 후 사용자가 직접 다운로드 요청을 할 수가 있으며, 다운로드 후에는 바로 재생하여 해당 영상을 확인할 수 있습니다.
+아울러 로그 확인 후, 다운로드 요청을 할 수 있습니다. 
+
+다운로드가 완료되면 재생 버튼이 활성화됩니다. (다운로드 요청 후, 완료까지 1~2일이 소요될 수 있습니다.)
+
 
 ![MetaVision2 golden-data](./images/metavision2_data_agent_golden_data2.png)
 ![MetaVision2 golden-data](./images/metavision2_data_agent_golden_data3.png)

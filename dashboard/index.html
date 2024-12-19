@@ -59,7 +59,11 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Data Agent</span></p>
-              <ul>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Dashboard</a>
+    <ul class="current">
+    </ul>
+                  </li>
                   <li class="toctree-l1"><a class="reference internal" >Developmental Disorder</a>
     <ul>
                 <li class="toctree-l2"><a class="reference internal" href="../intro_developmental_disorder/">Introduction</a>
@@ -83,13 +87,15 @@
                 </li>
     </ul>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" >Advanced Search</a>
+                  <li class="toctree-l1"><a class="reference internal" >Multisource Search</a>
     <ul>
                 <li class="toctree-l2"><a class="reference internal" href="../event_search/">Event Search</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../object_search/">Object Search</a>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../similar_search/">Similar Search</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../map_tracking/">Map Tracking</a>
                 </li>
     </ul>
                   </li>
@@ -108,6 +114,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Data Agent</li>
       <li class="breadcrumb-item active">Dashboard</li>
     <li class="wy-breadcrumbs-aside">
     </li>
@@ -118,19 +125,38 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="dashboard">Dashboard<a class="headerlink" href="#dashboard" title="Permanent link">&para;</a></h1>
-<p><b>Dashboard</b>에서는 프로젝트 정보, 보유한 데이터 현황 그리고 데이터를 공유할 사용자 정보를 제공합니다.</p>
-<p>제공하는 차트는 다음과 같습니다.</p>
+<p><b>Dashboard</b>에서는 Data Agent에서 수집 및 관리하는 모든 서비스 데이터에 대한 현황 정보를 제공합니다.</p>
+<p>제공하는 정보는 다음과 같습니다.</p>
 <ul>
-<li>Storage Size: object storage에 저장된 파일에 대해 유형별 총 사이즈</li>
-<li>File Count: object storage에 저장된 파일에 대해 유형별 총 개수</li>
-<li>Object Count: ML Workflow로 추출된 메타 정보에 대해 유형별 총 개수</li>
-<li>Workflow Count: 등록된 Workflow의 진행 현황</li>
+<li>
+<p>전체 데이터 보유 현황</p>
+<ul>
+<li>Total Storage: 총 서비스 데이터 저장 사이즈</li>
+<li>Total Videos: 누적 동영상 수</li>
+<li>Videos/Month: 최근 한달동안 수집한 동영상 수</li>
+<li>Total Images: 누적 이미지 수</li>
+<li>Images/Month: 최근 한달동안 수집한 이미지 수</li>
 </ul>
-<p>각 프로젝트별로 사용자 추가 및 삭제를 통해 데이터를 공유할 수 있다.</p>
-<p><img alt="MetaVision2 Dashboard" src="./images/metavision2_dashboard_preview.png" /></p>
+</li>
+<li>
+<p>서비스별 데이터 통계 현황</p>
+<ul>
+<li>Total Storage: 총 데이터 저장 사이즈</li>
+<li>Total Videos: 누적 동영상 수</li>
+<li>Videos/Month: 최근 한달동안 수집한 동영상 수</li>
+<li>Total Images: 누적 이미지 수</li>
+<li>Images/Month: 최근 한달동안 수집한 이미지 수</li>
+</ul>
+</li>
+</ul>
+<p><img alt="MetaVision2 Dashboard" src="../images/metavision2_data_agent_dashboard.png" /></p>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../files/" class="btn btn-neutral float-left" title="Files"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../intro_developmental_disorder/" class="btn btn-neutral float-right" title="Introduction">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -153,6 +179,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="../files/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../intro_developmental_disorder/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

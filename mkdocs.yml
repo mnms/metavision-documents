@@ -16,6 +16,7 @@ nav:
   - Files: files.md
 
 - Data Agent:
+  - Dashboard: dashboard.md
   - Developmental Disorder:
     - Introduction: intro_developmental_disorder.md
     - Group Monitoring: group_monitoring.md
@@ -26,11 +27,11 @@ nav:
   - Semantic Search:
     - System Architecture: semantic_search_archi.md
     - UI Scenario: semantic_search.md
-  - Advanced Search:
+  - Multisource Search:
     - Event Search: event_search.md
     - Object Search: object_search.md
     - Similar Search: similar_search.md
-
+    - Map Tracking: map_tracking.md
 
 plugins:
 - search

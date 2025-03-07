@@ -23,7 +23,7 @@ nav:
     - Golden-Data Events: golden_data_events.md
     - AI Device Status: ai_device_status.md
 
-- Search:
+- Vision AI Application:
   - Semantic Search:
     - System Architecture: semantic_search_archi.md
     - UI Scenario: semantic_search.md
@@ -32,6 +32,11 @@ nav:
     - Object Search: object_search.md
     - Similar Search: similar_search.md
     - Map Tracking: map_tracking.md
+  - Multimodal Synopsis:
+    - Video Synopsis: video_synopsis.md
+    - Visual Overview: visual_overview.md
+    - Chapter Synopsis: chapter_synopsis.md
+    - Multimodal Search: multimodal_search.md
 
 plugins:
 - search

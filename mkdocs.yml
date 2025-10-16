@@ -37,6 +37,11 @@ nav:
     - Visual Overview: visual_overview.md
     - Chapter Synopsis: chapter_synopsis.md
     - Multimodal Search: multimodal_search.md
+  - Ego View AI:
+    - System Architecture: ego_view_ai_archi.md
+    - UI Scenario:
+      - Video Synopsis: ego_view_ai_video_synopsis.md
+      - Goal Step: ego_view_ai_goal_step.md
 
 plugins:
 - search
@@ -54,4 +59,4 @@ theme:
   highlightjs: true
 
 extra:
-  version: 1.0
+  version: 2.1.4

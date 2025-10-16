@@ -2,122 +2,137 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/mnms/metavision-documents/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/ai_device_status/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/chapter_synopsis/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/dashboard/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/data_lake/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/data_warehouse/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/datasets/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/mnms/metavision-documents/ego_view_ai_archi/</loc>
+         <lastmod>2025-10-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/mnms/metavision-documents/ego_view_ai_goal_step/</loc>
+         <lastmod>2025-10-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/mnms/metavision-documents/ego_view_ai_video_synopsis/</loc>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/event_search/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/files/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/golden_data_events/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/group_monitoring/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/intro_developmental_disorder/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/login/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/map_tracking/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/multimodal_search/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/object_search/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/project/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/semantic_search/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/semantic_search_archi/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/signin/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/similar_search/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/video_synopsis/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/visual_overview/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mnms/metavision-documents/workflow_event/</loc>
-         <lastmod>2025-03-07</lastmod>
+         <lastmod>2025-10-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

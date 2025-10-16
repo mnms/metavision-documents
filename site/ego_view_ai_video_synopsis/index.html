@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Safety&Care AI 개발팀" /><link rel="canonical" href="https://github.com/mnms/metavision-documents/ego_view_ai_video_synopsis/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Video Synopsis - MetaVision Docs</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Video Synopsis";
+        var mkdocs_page_input_path = "ego_view_ai_video_synopsis.md";
+        var mkdocs_page_url = "/mnms/metavision-documents/ego_view_ai_video_synopsis/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> MetaVision Docs
+        </a>
+        <div class="version">
+          2.1.4
+        </div><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="..">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../signin/">Register & Sign in</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Storage & Database</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../project/">Projects</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../datasets/">Datasets</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../files/">Files</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Data Agent</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../dashboard/">Dashboard</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Developmental Disorder</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../intro_developmental_disorder/">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../group_monitoring/">Group Monitoring</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../golden_data_events/">Golden-Data Events</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ai_device_status/">AI Device Status</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Vision AI Application</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" >Semantic Search</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../semantic_search_archi/">System Architecture</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../semantic_search/">UI Scenario</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Multisource Search</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../event_search/">Event Search</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../object_search/">Object Search</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../similar_search/">Similar Search</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../map_tracking/">Map Tracking</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Multimodal Synopsis</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../video_synopsis/">Video Synopsis</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../visual_overview/">Visual Overview</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../chapter_synopsis/">Chapter Synopsis</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../multimodal_search/">Multimodal Search</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >Ego View AI</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../ego_view_ai_archi/">System Architecture</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" >UI Scenario</a>
+    <ul class="current">
+                <li class="toctree-l3 current"><a class="reference internal current" href="#">Video Synopsis</a>
+    <ul class="current">
+    <li class="toctree-l4"><a class="reference internal" href="#1">1. 주요 기능</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#2">2. 상세 기능 및 시나리오</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" href="../ego_view_ai_goal_step/">Goal Step</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">MetaVision Docs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Vision AI Application</li>
+          <li class="breadcrumb-item">Ego View AI</li>
+          <li class="breadcrumb-item">UI Scenario</li>
+      <li class="breadcrumb-item active">Video Synopsis</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="video-synopsis">Video Synopsis<a class="headerlink" href="#video-synopsis" title="Permanent link">&para;</a></h1>
+<p>수집된 비디오를 실시간으로 문석하고, 리포트 및 검색 서비스를 제공</p>
+<h2 id="1">1. 주요 기능<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><b>이벤트 영상 관리:</b> 수집된 비디오 및 비디오 그룹 목록을 제공하고, 편집 및 내보내기 기능 제공</li>
+<li><b>이벤트 분석:</b> 비디오를 오디오 및 비디오 기반으로 분석하여, 주요 부분을 이벤트 영상으로 추출하고 요약 정보를 제공</li>
+<li><b>이벤트 리포트:</b> 분석한 이벤트 중 선별하여 서비스 시나리오에 맞게 리포트를 생성</li>
+<li><b>통합 검색:</b> 분석한 비디오의 주요 장면 묘사, 대화 기록, 이벤트 요약 및 리포트에 대해 검색 서비스 제공</li>
+</ul>
+<h2 id="2">2. 상세 기능 및 시나리오<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<h3 id="1_1">1) 이벤트 영상 관리<a class="headerlink" href="#1_1" title="Permanent link">&para;</a></h3>
+<h4 id="a">A. 수집된 비디오 목록을 제공함<a class="headerlink" href="#a" title="Permanent link">&para;</a></h4>
+<ul>
+<li>동일 사건 또는 기기로 묶인 여러 비디오를 한번에 분석하기 위해 비디오 그룹을 제공함</li>
+<li>오디오/비디오 분석 유형 및 결과 표시</li>
+</ul>
+<p><img alt="Video List" src="../images/ego_view_ai_video_list.png" />
+<center><b>&lt; 수집된 비디오 목록 &gt;</b></center></p>
+<h4 id="b">B. 비디오별/비디오 그룹별 재생 화면 제공<a class="headerlink" href="#b" title="Permanent link">&para;</a></h4>
+<ul>
+<li>선택 비디오의 분석결과 보기 기능 제공</li>
+<li>비디오 편집 기능 제공</li>
+</ul>
+<p><img alt="Video Play" src="../images/ego_view_ai_video_clipping.png" />
+<center><b>&lt; 비디오 재생 및 편집 &gt;</b></center></p>
+<h4 id="c">C. 비디오 편집 화면<a class="headerlink" href="#c" title="Permanent link">&para;</a></h4>
+<ul>
+<li>특정 구간 자르기 및 모자이크(사람, 차량 번호판, 신분증) 옵션 제공</li>
+</ul>
+<p><img alt="Video Edit Option" src="../images/ego_view_ai_video_mosaic.png" />
+<center><b>&lt; 비디오 편집 옵션 &gt;</b></center></p>
+<p><img alt="Edit Video List" src="../images/ego_view_ai_video_edit_list.png" />
+<center><b>&lt; 편집 영상 목록 &gt;</b></center></p>
+<h3 id="2_1">2) 이벤트 분석<a class="headerlink" href="#2_1" title="Permanent link">&para;</a></h3>
+<h4 id="a_1">A. 분석된 비디오 목록을 제공함<a class="headerlink" href="#a_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li>상세정보가 표시되는 리스트 형태와 썸네일이 제공되는 그리드 형태로 제공</li>
+</ul>
+<p><img alt="Event List" src="../images/ego_view_ai_event_list.png" />
+<center><b>&lt; 이벤트 목록 &gt;</b></center></p>
+<h4 id="b_1">B. 이벤트 상세 정보 제공<a class="headerlink" href="#b_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li>분석한 비디오에서 추출된 주요 이벤트 정보를 상세히 제공</li>
+<li>제공 정보<ul>
+<li>이벤트 클립 영상 재생</li>
+<li>비디오 전체 요약</li>
+<li>이벤트별 요약, 대화기록, 장소, 객체 정보(사람, 차량 번호판, 신분증 등)</li>
+<li>이벤트 내부 주요 장면에 대해 상세 요약 제공</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Event Detail" src="../images/ego_view_ai_event_detail.png" />
+<center><b>&lt; 이벤트 상세 정보 &gt;</b></center></p>
+<h4 id="c_1">C. 이벤트 보관함<a class="headerlink" href="#c_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li>생성한 이벤트는 보관함에 저장하여 별도 관리할 수 있도록 함</li>
+<li>이벤트 보관함에 있는 이벤트는 선별적으로 목적에 맞게 리포트를 생성하여 제공</li>
+</ul>
+<p><img alt="Event Storage" src="../images/ego_view_ai_event_storage.png" />
+<center><b>&lt; 이벤트 보관함 &gt;</b></center></p>
+<h3 id="3">3) 이벤트 리포트<a class="headerlink" href="#3" title="Permanent link">&para;</a></h3>
+<h4 id="a_2">A. 발행한 리포트 목록을 제공함<a class="headerlink" href="#a_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li>상세정보가 표시되는 리스트 형태와 썸네일이 제공되는 그리드 형태로 제공</li>
+</ul>
+<p><img alt="Report List" src="../images/ego_view_ai_report_list.png" />
+<center><b>&lt; 발행한 리포트 목록 &gt;</b></center></p>
+<h4 id="b_2">B. 리포트 상세 정보 제공<a class="headerlink" href="#b_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li>선별한 이벤트로 생성한 리포트의 상세 정보 제공</li>
+<li>제공 정보<ul>
+<li>기본 정보(발생 일시/발생 장소/관련 인물) 제공</li>
+<li>선별한 이벤트 기반으로 리포트 생성(고객 요구사항에 맞게 형식 변경)</li>
+<li>사용된 이벤트의 영상 재생 및 대화 기록 제공</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Report Detail" src="../images/ego_view_ai_report_detail.png" />
+<center><b>&lt; 리포트 상세 정보 &gt;</b></center></p>
+<h3 id="4">4) 통합 검색<a class="headerlink" href="#4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>영상에서 추출된 이벤트, 객체, 장면, 대화, 처리 절차, 리포트까지 주요 정보들을 자연어로 빠르게 검색</li>
+</ul>
+<p><img alt="Total Search" src="../images/ego_view_ai_total_search.png" />
+<center><b>&lt; 통합 검색 초기 화면&gt;</b></center></p>
+<ul>
+<li>검색 결과는 영상, 이벤트, 주요 장면, 대화, 이벤트 리포트 등으로 분류하여 제공</li>
+</ul>
+<p><img alt="Total Search Result" src="../images/ego_view_ai_total_search_result.png" />
+<center><b>&lt; 통합 검색 결과&gt;</b></center></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../ego_view_ai_archi/" class="btn btn-neutral float-left" title="System Architecture"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../ego_view_ai_goal_step/" class="btn btn-neutral float-right" title="Goal Step">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>All right reserved, <a href='#'>Safety&Care AI 개발팀</a></p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../ego_view_ai_archi/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../ego_view_ai_goal_step/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
